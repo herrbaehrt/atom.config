@@ -1,0 +1,46 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
+    "atom-ide-find-references":
+      defaultLocationForPane: "right"
+    use:
+      "atom-ide-diagnostics-ui": false
+  core:
+    disabledPackages: [
+      "language-gfm"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "91812e81-31bf-4d6a-a255-4c3d44061b9f"
+  "git-plus":
+    general: {}
+  "goto-definition": {}
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
+  "js-hyperclick":
+    jumpToImport: true
+  "linter-ui-default": {}
+  "markdown-preview-plus":
+    liveUpdate: false
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        green: "#91c90e"
+      zBright:
+        brightGreen: "#91c90e"
+    style:
+      theme: "dracula"
+  "seti-syntax":
+    dynamicColor: false
+  "seti-ui": {}
+  "status-bar": {}
+  welcome:
+    showOnStartup: false
